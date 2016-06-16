@@ -17,6 +17,19 @@
  * 
  
 
+<!--///获取当前事件 实例化(创建)一个对象-->
+var now =new Date()
+console.dir(now);
+console.log(now.getSecoonds());
+<!--延迟五秒钟之后再次输出一个date-->
+setTimeout(function(){var newTime = newDate(); console.dir(newTime); console.log(newTime.getSeconds());},5000)
+
+
+<!--我们创建的now和newTime两个对象 -->
+<!--它们包含的属性方法都一样 但是值是不一样的-->
+methodName 方法名
+(args1,args2....)参数名
+function methodName(args1,args2...){//方法体 方法的内容 return xxx}
 
  * 创建一个鸭子的对象
  * 需要两个参数name color***/  
